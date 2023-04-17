@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    font-family: Inter;
+}
+
+/** HEADER **/
+.navbar{
+    z-index: 1000;        
+    font-family: Readex Pro;
+}
+
+.navbar-content {
+    padding: 0 8%;
+    margin-bottom: -10px;
+    margin-top: -10px;
+    font-family: Readex Pro;
+    position:sticky;
+}
+
+.nav-item {
+    padding: 0 15px;    
+    font-family: Readex Pro;
+}
+
+.nav-link {
+    color: #2C293A;
+    font-weight: 500;
+    font-family: Readex Pro;
+}
+
+.nav-link:hover {
+    color: #C70800;
+}
+
+.nav-item > .active {
+    color:#C70800 !important; 
+}
+
+.navbar-nav > .nav-item > .btn {    
+    width: 101px;
+    height: 36px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right:10px;
+}
+
+#sign-in {    
+    background-color: #ffffff;
+    color: #C70800;
+    border: #ffffff;   
+    box-shadow: 0px 4px 4px #00000040;    
+}
+#sign-in:hover {
+    color: #ffffff;
+    background-color: #8e0000;
+}
+
+#register {
+    background-color: #C70800;
+    color: #fff;
+    border: #C70800;
+    box-shadow: 0px 4px 4px #00000040;  
+}
+#register:hover {
+    color: #ffffff;
+    background-color: #8e0000;
+}
+
+#sign-in-menu {    
+    background-color: #C70800;
+    color: #fff;
+    border: #C70800;
+    box-shadow: 0px 4px 4px #00000040;  
+}
+#sign-in-menu:hover {
+    color: #ffffff;
+    background-color: #8e0000;
+}
+
+#register-menu {
+    background-color: #ffffff;
+    color: #C70800;
+    border: #ffffff;   
+    box-shadow: 0px 4px 4px #00000040;  
+}
+#register-menu:hover {
+    color: #ffffff;
+    background-color: #8e0000;
+}
+
+.nav-responsive-padding-bottom {
+    padding-bottom: 20px;
+}
+
+.fa-cart-shopping {font-size:18px; color: #C70800; filter: drop-shadow(0px 2px 2px #00000040);}
+.fa-cart-shopping:hover {color: #8e0000; transition: all 0.2s;}  
+
+/** user **/
+.nav-item > #username {
+    font-size: 14px;
+    font-family: Readex Pro;
+}
+
+tr > #usertitle {
+    font-size: 11px;
+    font-family: Readex Pro;    
+}
+
+.rowspace {
+    padding:0 7px;
+}
+
+#useravatar {
+    filter: drop-shadow(0px 2px 2px #00000040);
+    border-radius: 100%;
+}
+
+.useravatarfilter {    
+    height:50px;
+    width:50px;
+    border-radius: 100%;
+    display: inline-block;    
+}
+
+.useravatarfilter:hover {    
+    background-color: black; 
+    transition: all 0.2s;   
+}
+
+#useravatar:hover {
+    opacity: 0.7;
+    transition: all 0.2s;
+}
+
+.btn-primary{
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    font-family: Readex Pro;
+}
+
+.user-name, td>a{
+    color: #2C293A;
+    font-size: 14px;
+    font-family: Readex Pro !important;
+}
+
+.user-name:hover {
+    color: #C70800;
+    transition: all 0.2s;
+}
+
+/*** links ****/
+.link-style {
+    color: #C70800;
+}
+
+.link-style:hover {
+    color: #2C293A;
+}

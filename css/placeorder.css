@@ -1,0 +1,73 @@
+body{
+    background-color: #fff; 
+    font-family: Inter;
+}
+
+.content-container {
+    background-color: #fff;    
+    max-width: 700px;
+    min-width: 625px;
+    border-radius: 10px;         
+    overflow: hidden;
+    position: relative;
+    left: calc(50% - 700px/2);    
+    margin-bottom:40px;
+}
+
+.content-wrapper {
+    margin: 60px;    
+    max-width: 580px;    
+}
+
+.form-group > input[type='email'] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.form-check {
+    margin: 8px 0;
+}
+
+form > button[type='submit'], .btn-submit {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #C70800;
+    color: #fff;
+    border: none;
+    height: 50px;
+    font-size:18px;
+    font-weight: 500;
+    font-family: Inter;
+    border-radius: 5px;
+}
+
+form > button[type='submit']:hover, form > button[type='submit']:focus, .btn-submit:hover, .btn-submit:focus{
+    background-color: #8e0001;
+    color: #fff;
+}
+
+.content-wrapper > .content-title {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #2C293A;
+    font-family: Readex Pro;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.title-line {
+    width: 350px;
+    height: 0px;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 30px;
+    margin-left: calc(50% - 350px/2);
+}
+
+input, select {
+    font-family: Inter !important;
+    font-weight: normal;
+    margin-bottom: 10px;
+}

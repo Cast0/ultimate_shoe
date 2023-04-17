@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+@import url('https://fonts.googleapis.com/css?family=Readex Pro');
+
+body {font: 14px sans-serif; background-color: #e7e7e7; color: #141C07;}
+.wrapper { width: 360px; padding: 20px;}
+
+.wrapper {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.top-line {
+    position: absolute;
+    height: 8px;
+    left: -0.21%;
+    right: 0%;
+    top: 0px;
+    background: #C70800;
+}
+
+.back-icon img {
+    width: 40px;
+    height: 40px;
+    top: 60px;
+    left: calc(50% - 500px/2);
+    position: absolute;
+}
+
+.back-icon2 img {
+    width: 40px;
+    height: 40px;
+    top: 100px;
+    left: calc(50% - 700px/2);
+    position: absolute;
+}
+
+.back-icon img:hover,
+.back-icon2 img:hover {
+    opacity: 0.7;
+    transition: 0.25s all ease;
+}
+
+.back-icon3 img {
+    width: 40px;
+    height: 40px;
+    top: 100px;
+    left: calc(50% - 900px/2);
+    position: absolute;
+}
+
+.edituserblock {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    margin-top: 30px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.edituserblock h2 {
+    font-weight: 700;
+    font-size: 25px;
+    font-family: 'Readex Pro';
+}
+
+label {
+    margin-bottom: 0px;
+    color: #8e0001;
+    font-weight: 500;
+    font-family: 'Inter';
+}
+
+.buttonsalign2 {
+    margin-left: 340px;
+}
+
+.btn-primary {
+    background-color: #C70800;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-secondary {
+    background-color: #fff;
+    color: #2C2A3A;
+    border: 1px solid #C70800;
+    border-radius: 5px;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn-primary:focus,
+.btn-secondary:focus {
+    background-color: #8e0001;
+    color: #fff;
+}
+
+.btn-style {
+    margin-bottom: 0px;
+    font-family: 'Inter';
+    font-weight: 600;
+}
+
+.btn-style-2 {
+    margin-bottom: 0px;
+    font-family: 'Inter';
+    font-weight: 600;
+}
+
+.btn-style, .btn-style, .btn-style-2:hover {
+    color: #fff;
+}
+
+.btn-style2 {
+    width: 70px;
+    font-family: 'Inter';
+    font-weight: 600;
+}
+
+.alert-danger {
+    margin-top: 80px;
+    background-color: #fff;
+    border: none;
+    color: #141C07;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+}
+
+.alert-danger h2 {
+    font-family: 'Readex Pro';
+    font-weight: 700;
+}
+
+.alert-danger p {
+    font-family: 'Inter';
+}
+
+.btn-danger {
+    color: #fff;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    border-radius: 5px;
+    width: 70px;
+    background-color: #C70800;
+}
+
+.btn-border {
+    background-color: #fff;
+    color: #2C2A3A;
+    border: 1px solid #C70800;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin-left: 15px;
+}
+
+.btn-border:hover {
+    background-color: #8e0001;
+    color: #fff;
+}
+
+.btn-solid {
+    background-color: #2C2A3A;
+    color: #fff;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin-left: 15px;
+}
+
+.btn-solid:hover {
+    background-color: #C70800;
+    color: #fff;
+}
+
+.btn-red {
+    background-color: #C70800;
+    color: #fff;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin-left: 15px;
+}
+
+.btn-red:hover {
+    background-color: #8e0001;
+    color: #fff;
+}

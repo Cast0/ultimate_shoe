@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+@import url('https://fonts.googleapis.com/css?family=Readex Pro');
+
+body{
+    background-color: #fff; 
+    font-family: 'Inter';
+}
+
+.content-container { 
+    /**margin-top:20px;
+    margin-bottom:140px;   **/
+    min-width:fit-content;  
+    max-width: 60%;  
+}
+
+.content-wrapper {
+    height: inherit;
+    padding: 40px 0;    
+    width: inherit;
+}
+
+.left-content {
+    padding: 0 0 40px 0;  
+}
+
+.right-content {
+    /**padding: 50px 0 50px 0;
+    border-radius: 10px;    **/
+}
+
+.logout-label {
+    font-family: 'Readex Pro';
+    font-weight: 600;
+    color: #2C293A;
+    font-size: 15px; 
+    padding-left: 5px;   
+}
+
+.logout-group {
+    padding-top:350px;
+}
+
+.logout-group a {
+    text-decoration: none;
+    font-family: 'Readex Pro';
+    font-weight: 600;
+    color: #2C293A;
+    font-size: 15px;
+    padding-left:0;
+}
+
+.links-title {
+    margin-top: 40px;
+    font-family: 'Readex Pro';
+    font-weight: 600;
+    color: #2C293A;
+    font-size: 15px;
+}
+
+.links-title-top {
+    font-family: 'Readex Pro';
+    font-weight: 600;
+    color: #2C293A;
+    font-size: 15px;
+}
+
+.side-links {    
+    text-align: left;
+    font-family: 'Readex Pro';
+    font-weight:400;
+    font-size: 15px;
+    border: none;
+    background-color: #fff;
+    color: #2C2A3A;
+    padding: 2px 10px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+
+.side-links:hover {
+    background-color: #8e0001;
+    color: #fff; 
+}
+
+.side-links:focus {
+    background-color: #2C2A3A;
+    color: #fff; 
+}
+
+.side-links-active {
+    background-color: #C70800;   
+    color: #fff; 
+}
+
+.container-title {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Readex Pro';
+}
+
+.title-line {
+    width: 40%;
+    height: 0px;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 30px;
+    margin-left: calc(50% - 40%/2);
+}
+
+.form-style {
+    padding: 0 70px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.btn-save {
+    width: 100%;
+    background-color: #C70800;
+    color: #fff;
+}
+
+.btn-save:hover {
+    background-color: #8e0001;
+    color: #fff;
+}
+
+/********** show/hide pw ******/
+.show-pw {
+    padding-bottom: 20px;
+}

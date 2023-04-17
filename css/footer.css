@@ -1,0 +1,107 @@
+/*************** GENERAL ***************/
+    html {
+        scroll-behavior: smooth;
+    }
+
+    /* Text Selection Color */
+    ::-moz-selection { /* Code for Firefox */
+        color: #fff;
+        background: #2C2A3A;
+    }
+    
+    ::selection {
+        color: #fff;
+        background: #2C2A3A;
+    }
+
+    /* Scrollbar */    
+        /* width */ ::-webkit-scrollbar {width: 8px;}        
+        /* track */ ::-webkit-scrollbar-track {background: #2C2A3A;}
+        /* handle */ ::-webkit-scrollbar-thumb {background: #8e0001;}
+        /* handle on hover */ ::-webkit-scrollbar-thumb:hover {background: #C70800;} 
+
+        /* firefox scrollbar */
+        .scroller {        
+            overflow-y: scroll;
+            overflow-x: hidden; 
+            scrollbar-color: #C70800 #2C2A3A;
+            scrollbar-width: thin;       
+        }
+        .scroller:hover, .scroller:focus, .scroller:active{        
+            scrollbar-color: #8e0001 #2C2A3A;     
+        }    
+
+    /* Back to Top */
+    #btn-back-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: none;
+        border-radius: 100%;
+        background-color: #C70800;
+        border: none;
+    }
+
+    #btn-back-to-top:hover, #btn-back-to-top:focus {        
+        background-color: #8e0001;
+        border: none;
+    }
+
+    /* show/hide pw */
+    .show-pw {
+        padding-left: 10px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    /**********show pw with icon*********/
+    /*
+    .fa-eye-slash, .fa-eye {
+        color: #2C2A3A;
+        background-color: transparent;
+        border: none;
+        display: inline-block;
+        line-height: 1.7;
+        text-align: center;    
+    }    
+
+    .input-group-text {
+        margin-left: -40px;
+        background-color: transparent;
+        border: none;
+    }
+    */
+   
+/************** FOOTER *****************/
+@import url('https://fonts.googleapis.com/css?family=Inter');
+@import url('https://fonts.googleapis.com/css?family=Readex Pro');
+
+footer {
+    background-color: #C70800;
+    color: #fff !important;
+    font-family: Inter;
+    padding-top:5px;
+}
+
+.fab {
+    color: #fff !important;
+    margin-right: 20px;
+}
+
+a:link, a:visited, a:hover, a:active {    
+    text-decoration: none;
+    font-family: Inter;
+}
+
+h6 {
+    font-family: Inter;
+}
+
+.text-reset:hover {
+    color:#8e0000;
+}
+
+.text-reset:hover, .fab:hover {
+    color:#2C2A3A !important;
+}
