@@ -1,4 +1,4 @@
-# KADS
+# Ultimate Shoe Battle 
 
 # import sql file
-# db name 'kads'
+# db name 'ultimate_shoe'

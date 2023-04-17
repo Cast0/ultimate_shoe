@@ -28,7 +28,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> KADS | Admin</title>
+    <title> Ultimate Shoe Battle | Admin</title>
     <link rel="icon" type="image/png" sizes="16x16" href="../img/logo.png">
     <!--<link href="../plugins/bower_components/chartist/dist/chartist.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../plugins/bower_components/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.css"> -->

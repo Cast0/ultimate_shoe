@@ -52,7 +52,7 @@ if (isset($_POST["id"]) && !empty($_POST["id"])) {
 
 <head>
     <meta charset="UTF-8">
-    <title>KADS | Admin</title>
+    <title>Ultimate Shoe Battle | Admin</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="icon" type="image/png" sizes="16x16" href="../img/logo.png">
     <link rel="stylesheet" href="./css/customerstyle.css">
