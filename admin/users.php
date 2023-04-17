@@ -201,13 +201,6 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 2) {
                         </li>
                         
 
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="feedbacks.php"
-                                aria-expanded="false">
-                                <i class="fa fa-comments" aria-hidden="true"></i>
-                                <span class="hide-menu">Feedbacks</span>
-                            </a>
-                        </li>
                     </ul>
 
                 </nav>
@@ -320,13 +313,6 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 2) {
             <!-- End Container fluid  -->
             <!-- ============================================================== -->
             <!-- ============================================================== -->
-            <!-- footer -->
-            <!-- ============================================================== -->
-            <footer class="footer text-center">
-            KADS | EST 2022
-            </footer>
-            <!-- ============================================================== -->
-            <!-- End footer -->
             <!-- ============================================================== -->
         </div>
         <!-- ============================================================== -->

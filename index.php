@@ -41,72 +41,38 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
       }
     ?>
 
-    <!--- content start --->
     <div class="d-flex content-1">
-      <div class="me-auto align-self-center ml-auto left1">
-        <h1>This Is <br>How We <br>Roll!<span class="emoji1">&#x1F363&#x1F962</span></h1>
-        <p class="text">
-          We are KADS! A restaurant specializing in sushi. Every sushi is created by the best sushi chef around, 
-          so what are you waiting for? Order now and enjoy your sushi from KADS!
-        </p>
-        <div class="cta">
-          <a href="menu.php" class="btn">Order Now</a>
+      <div class="me-auto ml-auto left1 align-self-center">
+        <div class="description_left">
+            <img class="town-emoji" src="images/town-emoji.png">
+            <span class="description_tagline">Bumili ka na </span>
+            <p class="description_header">Shoe Name</p>
+            <p class="description_text">Description</p>
         </div>
       </div>
-      <div class="image1 w-75">
-        <img src="images/kads_landing_pic.png"  class="landing_pic img-fluid">
+      <div class="description_right">
+        <img class="sushi-blob" src="images/Adidas-BS1.png">
       </div>
     </div>
 
-    <div class="d-flex content-2">
-      <div class="image2 w-50 d-none d-sm-none d-md-none d-lg-block">
-        <img src="IMAGES/left.png" alt="KADS" class="left-pic img-fluid" />
-      </div>     
-      <div class="ms-auto pt-100 right1 w-auto">
-        <p class ="text2"> &#10024 Authentic Japanese Restaurant in the Philippines</p>
-        <h2 class="about-kads">About KADS</h2>
-        <p class="text1">
-          All of our menu items are inspired by Japanese cuisine and have been created by our head chef, kads, after studying authentic Japanese cuisine in japan. 
-          Not only do we have fresh flown-in seafood from the northeast, but we also have a variety of handcrafted cocktails, wine, and beer to choose from.         
-        </p>
+    
   
-        <img src="images/sushi.png" alt="KADS" class="sushi_pic d-none d-sm-block" />            
-      </div>
-    </div>
 
     <div class="content-3">
       <div class="d-flex justify-content-center text-center">
-        <div class="p-2 text-center"><h2 class="howto text-center">How To Order</h2></div>
+        <div class="p-2 text-center"><h2 class="howto text-center">Shoes</h2></div>
       </div>
       <div class="d-flex justify-content-center text-center">
-        <div class="p-2 text-center"><p class="follow text-center">Follow these steps to enjoy the best sushi in town!</p></div>
-      </div>
-
-      <div class="row steps-group d-flex justify-content-center text-center">
-        <div class="col step-item">
-          <h1>&#127843</h1>
-          <p class="menutext"><b>Choose Menu</p></b>
-          <p class="menutext1">Select the food or drink menu you want and add it to your shopping cart</p>
-        </div>
-        <div class="col step-item">
-          <h1>&#128722</h1>
-          <p class="menutext"><b>Checkout Order</p></b>
-          <p class="menutext1">Once the orders are in your shopping cart, check out to process your order</p>
-        </div>
-        <div class="col step-item">
-          <h1>&#128757</h1>
-          <p class="menutext"><b>Wait for Delivery</p></b>
-          <p class="menutext1">Your order will be prepared and delivered to you</p>
-        </div>
-      </div>      
+        <div class="p-2 text-center"><p class="follow text-center">description of shoes</p></div>
+      </div>     
     </div>
 
     <div class="content-4">
       <div class="d-flex justify-content-start">
         <div class="text-left ohayo-group">
-          <h2 class="ohayo-title">&#128075; Ohayo!</h2>
+          <h2 class="ohayo-title">&#128075; PAK U</h2>
           <p class="ohayo-text">
-            Have a look in some of the items in our menu! Order now!
+            Description of shoes
           </p>
         </div>    
       </div>
@@ -122,7 +88,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
             exit();
           }
           if(mysqli_num_rows($result) < 1) {
-            echo "No best seller products found.";
+            echo "    No best seller products found.";
             exit();
           }
 
@@ -166,7 +132,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
                     <img src="img/menu/<?php echo $product['image']; ?>" class="d-block w-100" alt="<?php echo $product['productName']; ?>">
                   </div>
                   <h5 class="card-title" style="margin-bottom:10px;"><?php echo $product['productName']; ?></h5>                  
-                  <a href="menu.php"><button class="button card-btn">Order Now</button></a>
+                  <a href="shoes.php"><button class="button card-btn">View</button></a>
                 </div>
               </div>
               <?php } ?>
@@ -190,9 +156,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
     </button>
     <!-- back to top button end -->
 
-    <?php
-      include 'footer.html';
-    ?>
+    
 
 
     <!---------------------JS-------------------->      

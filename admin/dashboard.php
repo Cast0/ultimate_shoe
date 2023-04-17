@@ -44,8 +44,8 @@ require "../conn.php";
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> KADS | Admin</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="../img/logo.png">
+    <title> Ultimate Shoe Battle | Admin</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/logo1.png">
     <!--<link href="../plugins/bower_components/chartist/dist/chartist.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../plugins/bower_components/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.css"> -->
     <link href="../css/style.min.css" rel="stylesheet">
@@ -244,14 +244,6 @@ require "../conn.php";
                                 <span class="hide-menu">Category</span>
                             </a>
                         </li>
-                     
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="feedbacks.php"
-                                aria-expanded="false">
-                                <i class="fa fa-comments" aria-hidden="true"></i>
-                                <span class="hide-menu">Feedbacks</span>
-                            </a>
-                        </li>
                     </ul>
 
                 </nav>
@@ -414,14 +406,6 @@ require "../conn.php";
             <!-- ============================================================== -->
             <!-- End Container fluid  -->
             <!-- ============================================================== -->
-            <!-- ============================================================== -->
-            <!-- footer -->
-            <!-- ============================================================== -->
-            <footer class="footer text-center">
-            KADS | EST 2022
-            </footer>
-            <!-- ============================================================== -->
-            <!-- End footer -->
             <!-- ============================================================== -->
 
         </div>

@@ -99,8 +99,8 @@
 <div class="d-flex flex-wrap container">
     <div class="row w-100 content-style">
       <div class="left-container col-5">
-        <div class="crop-img">
-          <img src="images/sushi-login1.jpg" alt="dummy image">
+        
+    
         </div>
       </div>
       <div class="right-container col align-self-center">
@@ -138,13 +138,6 @@
               <button class="btn-arrow btn" id="btn-arrow"><i class='fas fa-arrow-right'></i></button>                                                 
             </div>
           </div>
-
-          <div class="row" style="margin-bottom: 40px;">
-            <div class="col">
-              Don't have an account yet? 
-              <a class="link-style" href="registration.php">Sign up.</a>
-            </div>
-          </div>
         </form>
       </div>
     </div>
@@ -161,9 +154,7 @@
   <!-- back to top button end --> 
 
 
-<?php
-  include 'footer.html';
-?>
+
 
 <!---------------------JS-------------------->        
 <script src="backtotop.js"></script>
