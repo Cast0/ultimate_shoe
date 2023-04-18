@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Readex Pro');
 
 :root {
-    --primary: #C70800;
-    --primary-dark: #8e0001;
-    --secondary: #2C2A3A;
-    --light: #E7E7E7;      
+    --primary: #495057;
+    --primary-dark: #212529;
+    --secondary: #343A40;
+    --light: #DEE2E6;      
 }
 
 * {
@@ -16,7 +16,7 @@
 }
 
 body {
-    background: #ffffff;
+    background: #DEE2E6;
 }
 
 /* header */
@@ -32,12 +32,6 @@ body {
 .description_left {
     width: 500px;
     /**margin-left: 180px;**/
-}
-
-.town-emoji {
-    width: 36px;
-    height: 28px;
-    margin-right: 20px;
 }
 
 .description_tagline {
@@ -91,7 +85,7 @@ body {
     margin-top: -100px;
 }
 
-.sushi-blob {
+.shoe-show {
     width: auto;
     height: 846.9px;
 }/****/
@@ -130,11 +124,11 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
-    color: #ffffff;
+    color: #F8F9FA;
     margin: 0px 10px;
     transition: .3s ease-in-out;
     cursor: pointer;
-    background-color: #2C2A3A;
+    background-color: #212529;
     border-radius: 25px;
     width: 150px;
     height: 50px;
@@ -145,7 +139,7 @@ body {
 
 .content .list li:hover {
     cursor: pointer;
-    background-color: #c70800;
+    background-color: #495057;
 }
 
 /* categories */
@@ -228,7 +222,7 @@ form .text a {
 
 form .text a:hover {
     cursor: pointer;
-    background-color: #c70800;
+    background-color: #495057;
 }
 
 

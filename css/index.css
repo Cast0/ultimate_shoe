@@ -1,12 +1,13 @@
 :root {
-  --primary: #C70800;
-  --primary-dark: #8e0001;
-  --secondary: #2C2A3A;
-  --light: #E7E7E7;      
+  --primary: #495057;
+    --primary-dark: #212529;
+    --secondary: #343A40;
+    --light: #DEE2E6;      
 }
 
 body {
-  overflow-x: hidden;      
+  overflow-x: hidden;
+  background: #DEE2E6;
 }
 
 /************************************/

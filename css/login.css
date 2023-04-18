@@ -7,6 +7,7 @@
     font-family: Inter;
     src: url(../font/Inter.ttf);
   }
+ 
 
 /**
 @media (min-width: 900px) {
@@ -14,7 +15,9 @@
         grid-template-columns: repeat(2, 1fr); 
     }
 }**/
-
+body {
+    background: #DEE2E6;
+  }
 .crop-img img {
     height: auto;
     min-height:600px;
@@ -60,7 +63,7 @@
     font-family: 'ReadexPro';
     font-weight: 700;
     font-size: 42px;
-    color: #c70800;
+    color: #212529;
     padding-bottom: 25px;
 }
 /**
@@ -90,7 +93,7 @@ input {
 }
 
 .btn-arrow, #btn-arrow {
-    background-color: #c70800;
+    background-color: #212529;
     height: 60px;
     width: 60px;
     border-radius: 100%;
@@ -99,7 +102,7 @@ input {
 }
 
 .btn-arrow:hover {
-    background-color: #8e0000;    
+    background-color: #ADB5BD    
 }
 
 .fa-arrow-right {
@@ -107,14 +110,15 @@ input {
 }
 
 a {
-    color:#c70800;
+    color:#495057;
 }
 
 a:hover {
-    color:#8e0000;
+    color:#ADB5BD;
 }
 
 .content-style {
     padding: 40px 0 80px 0;
     padding-left: 20px;
 }
+

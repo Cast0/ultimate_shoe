@@ -31,11 +31,11 @@ body{
 }
 
 .nav-link:hover {
-    color: #C70800;
+    color: #495057;
 }
 
 .nav-item > .active {
-    color:#C70800 !important; 
+    color:#495057 !important; 
 }
 
 .navbar-nav > .nav-item > .btn {    
@@ -48,24 +48,13 @@ body{
 
 #sign-in {    
     background-color: #ffffff;
-    color: #C70800;
+    color: #212529;
     border: #ffffff;   
     box-shadow: 0px 4px 4px #00000040;    
 }
 #sign-in:hover {
     color: #ffffff;
-    background-color: #8e0000;
-}
-
-#register {
-    background-color: #C70800;
-    color: #fff;
-    border: #C70800;
-    box-shadow: 0px 4px 4px #00000040;  
-}
-#register:hover {
-    color: #ffffff;
-    background-color: #8e0000;
+    background-color: #6C757D;
 }
 
 #sign-in-menu {    
@@ -76,27 +65,12 @@ body{
 }
 #sign-in-menu:hover {
     color: #ffffff;
-    background-color: #8e0000;
-}
-
-#register-menu {
-    background-color: #ffffff;
-    color: #C70800;
-    border: #ffffff;   
-    box-shadow: 0px 4px 4px #00000040;  
-}
-#register-menu:hover {
-    color: #ffffff;
-    background-color: #8e0000;
+    background-color: #495057;
 }
 
 .nav-responsive-padding-bottom {
     padding-bottom: 20px;
 }
-
-.fa-cart-shopping {font-size:18px; color: #C70800; filter: drop-shadow(0px 2px 2px #00000040);}
-.fa-cart-shopping:hover {color: #8e0000; transition: all 0.2s;}  
-
 /** user **/
 .nav-item > #username {
     font-size: 14px;

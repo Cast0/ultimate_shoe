@@ -63,7 +63,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
     <!-- css -->
     <link rel="stylesheet" href="css/header-responsive.css" />
     <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/shoe.css" />
     <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <!-- fontawesome -->
@@ -88,23 +88,22 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
         }
   ?>
 
-    <!-- menu showcase -->
+    <!-- shoe showcase -->
     <div class="d-flex content-1">
       <div class="me-auto ml-auto left1 align-self-center">
         <div class="description_left">
-            <img class="town-emoji" src="images/town-emoji.png">
             <span class="description_tagline">Bumili ka na </span>
             <p class="description_header">BUMILI KA NA NGA</p>
             <p class="description_text">SHOE DESCRIPTION</p>
         </div>
       </div>
       <div class="description_right">
-        <img class="sushi-blob" src="images/Adidas-BS1.png">
+        <img class= "shoe-show" src="images/Adidas-BS1.png">
       </div>
     </div>
-    <!-- end of menu showcase -->
+    <!-- end of shoe showcase -->
 
-    <!-- menu -->
+    <!-- Shoe List -->
     <div class="menu_container">
 
         <div class="title">
@@ -157,7 +156,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
                         <p class="align-middle"><?php echo $row['productName']; ?></p>                    
                     </div>
                     <section>₱<?php echo $row['price']; ?></section>
-                        <a href="menu.php?p_id=<?php echo $row['p_id']; ?>&
+                        <a href="shoe.php?p_id=<?php echo $row['p_id']; ?>&
                         p_image=<?php echo $row['image']; ?>&
                         p_price=<?php echo $row['price']; ?>&
                         p_name=<?php echo $row['productName']; ?>"
@@ -198,7 +197,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
                 list.forEach((el1) => {
                     el1.style.background = "#2c293a";
                 })
-                e.target.style.background = "#c70800"
+                e.target.style.background = "#495057"
                 box.forEach((el2) => {
                     el2.style.display = "none";
                 })

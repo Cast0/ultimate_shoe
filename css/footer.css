@@ -6,19 +6,19 @@
     /* Text Selection Color */
     ::-moz-selection { /* Code for Firefox */
         color: #fff;
-        background: #2C2A3A;
+        background: #343A40;
     }
     
     ::selection {
         color: #fff;
-        background: #2C2A3A;
+        background: #343A40;
     }
 
     /* Scrollbar */    
         /* width */ ::-webkit-scrollbar {width: 8px;}        
         /* track */ ::-webkit-scrollbar-track {background: #2C2A3A;}
-        /* handle */ ::-webkit-scrollbar-thumb {background: #8e0001;}
-        /* handle on hover */ ::-webkit-scrollbar-thumb:hover {background: #C70800;} 
+        /* handle */ ::-webkit-scrollbar-thumb {background: #CED4DA;}
+        /* handle on hover */ ::-webkit-scrollbar-thumb:hover {background: #ADB5BD;} 
 
         /* firefox scrollbar */
         .scroller {        
@@ -28,7 +28,7 @@
             scrollbar-width: thin;       
         }
         .scroller:hover, .scroller:focus, .scroller:active{        
-            scrollbar-color: #8e0001 #2C2A3A;     
+            scrollbar-color: #6C757D #2C2A3A;     
         }    
 
     /* Back to Top */
@@ -38,12 +38,12 @@
         right: 20px;
         display: none;
         border-radius: 100%;
-        background-color: #C70800;
+        background-color: #343A40;
         border: none;
     }
 
     #btn-back-to-top:hover, #btn-back-to-top:focus {        
-        background-color: #8e0001;
+        background-color: #495057;
         border: none;
     }
 
