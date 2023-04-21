@@ -21,85 +21,25 @@ body {
 
 /* header */
 
-/* menu showcase*/
-.menu_showcase .description_box {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    justify-content: center;
-}
 
-.description_left {
-    width: 500px;
-    /**margin-left: 180px;**/
-}
-
-.description_tagline {
-    width: calc(330px + 12vw);
-    height: 28px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    vertical-align: middle;
-    flex-wrap: wrap;
-    text-align: left;
-    letter-spacing: 0.5px;
-    color: #757575;
-}
-
-.description_header {
-    width: calc(430px + 12vw);
-    margin-top: 15px;
-    margin-bottom: 0;
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 65px;
-    vertical-align: middle;
-    letter-spacing: 1px;
-    text-align: left;
-    color: #212121;
-    flex-wrap: wrap;
-}
-
-.description_text {
-    width: calc(330px + 12vw);
-    margin-top: 20px;
-    margin-bottom: 0;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
-    letter-spacing: 0.2px;
-    text-align: left;
-    color: #757575;
-}
-
-.description_right {
-    /*width: 500px;
-    margin-left: 56px;*/
-    margin-top: -100px;
-}
-
-.shoe-show {
-    width: auto;
-    height: 846.9px;
-}/****/
 
 /* menu */
 .menu_container {
-    width: 80%;
-    margin: 55px auto;
-    text-align: center;
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 250px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
 }
 
 .menu_container .title {
     width: auto;
     margin: auto;
+    color: #F8F9FA;
 }
 
 .menu_container .title h2 {
@@ -123,18 +63,19 @@ body {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 18px;
     color: #F8F9FA;
-    margin: 0px 10px;
+    margin: 10px 0px 0px;
     transition: .3s ease-in-out;
     cursor: pointer;
     background-color: #212529;
     border-radius: 25px;
-    width: 150px;
-    height: 50px;
-    line-height: 50px;
+    width: 160px;
+    height: 45px;
+    line-height: 33px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
     margin-top: 10px;
+    padding: 6px 8px 6px 16px;
 }
 
 .content .list li:hover {
@@ -147,8 +88,12 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(210px, auto));
     flex-wrap: wrap;
-    justify-items: center;
     margin-bottom: 100px;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    justify-items: center;
+    
 }
 
 .box {
@@ -158,6 +103,7 @@ body {
     background: #EEEEEE;
     border-radius: 15px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    
 }
 
 .box .box_img {
@@ -298,3 +244,5 @@ form .text a:hover {
   .ml {
     margin-left:100px;
   }
+  
+ 

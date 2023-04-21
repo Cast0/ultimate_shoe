@@ -50,6 +50,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
     <title>Ultimate Shoe Battle</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -88,21 +89,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
         }
   ?>
 
-    <!-- shoe showcase -->
-    <div class="d-flex content-1">
-      <div class="me-auto ml-auto left1 align-self-center">
-        <div class="description_left">
-            <span class="description_tagline">Bumili ka na </span>
-            <p class="description_header">BUMILI KA NA NGA</p>
-            <p class="description_text">SHOE DESCRIPTION</p>
-        </div>
-      </div>
-      <div class="description_right">
-        <img class= "shoe-show" src="images/Adidas-BS1.png">
-      </div>
-    </div>
-    <!-- end of shoe showcase -->
-
+    
     <!-- Shoe List -->
     <div class="menu_container">
 
@@ -129,6 +116,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
                 }?> 
             </div>
         </div>
+              </div>
         
         <!-- end of category buttons-->
 
@@ -156,7 +144,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
                         <p class="align-middle"><?php echo $row['productName']; ?></p>                    
                     </div>
                     <section>₱<?php echo $row['price']; ?></section>
-                        <a href="shoe.php?p_id=<?php echo $row['p_id']; ?>&
+                        <a href="product-view.php?p_id=<?php echo $row['p_id']; ?>&
                         p_image=<?php echo $row['image']; ?>&
                         p_price=<?php echo $row['price']; ?>&
                         p_name=<?php echo $row['productName']; ?>"
@@ -171,7 +159,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
                 }?> 
                 
          </div>
-     </div>
+    
     <!-- end of menu-->
 
     <!-- back to top button -->

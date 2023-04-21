@@ -9,6 +9,7 @@ body{
 .navbar{
     z-index: 1000;        
     font-family: Readex Pro;
+    --bs-navbar-padding-x: 110px;
 }
 
 .navbar-content {
