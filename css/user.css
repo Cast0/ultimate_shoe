@@ -78,7 +78,7 @@ body{
 }
 
 .side-links:hover {
-    background-color: #8e0001;
+    background-color: #212529;
     color: #fff; 
 }
 
@@ -88,7 +88,7 @@ body{
 }
 
 .side-links-active {
-    background-color: #C70800;   
+    background-color: #212529;   
     color: #fff; 
 }
 
@@ -116,12 +116,12 @@ body{
 
 .btn-save {
     width: 100%;
-    background-color: #C70800;
+    background-color: #212529;
     color: #fff;
 }
 
 .btn-save:hover {
-    background-color: #8e0001;
+    background-color: #212529;
     color: #fff;
 }
 

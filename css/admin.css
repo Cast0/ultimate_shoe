@@ -11,7 +11,7 @@ body{
     left: -0.21%;
     right: 0%;
     top: 0px;
-    background-color: #C70800;
+    background-color: #DEE2E6;
 }
 img{            
     height: 180px;
@@ -43,7 +43,7 @@ img{
 }
 .btn-primary{
     width: 100%;
-    background-color: #C70800;
+    background-color: #DEE2E6;
     color: #fff;
     border: none;
     font-weight: 600;
@@ -51,7 +51,7 @@ img{
     padding: 8px 0px 8px 0px;
 }
 .btn-primary:hover{
-    background-color: #8e0001;
+    background-color: #495057;
 }
 
 
@@ -81,7 +81,7 @@ img{
             left: -0.21%;
             right: 0%;
             top: 0px;
-            background: #C70800;
+            background: #212529;
         }
         .buttonsalign{
             margin-left:495px;  
@@ -89,7 +89,7 @@ img{
             margin-bottom:0px;         
         }
         .btn-primary{
-            background-color: #C70800;
+            background-color: #212529;
             color: #141C07;
             border: none;
             font-weight: 600;
@@ -97,13 +97,13 @@ img{
             border-radius:5px;
         }
         .btn-primary:hover,.btn-secondary:hover,.btn-primary:focus,.btn-secondary:focus{
-            background-color: #C70800;
+            background-color: #212529;
             color: #141C07;
         }
         .btn-secondary{
             background-color: #fff;
             color: #fff;
-            border: 1px solid #C70800;
+            border: 1px solid #212529;
             font-weight: 600;
             font-size: 14px;            
             border-radius:5px;
@@ -121,6 +121,6 @@ img{
         }
         label{
             margin-bottom: 0px;
-            color:#C70800;
+            color:#212529;
             font-weight:500;
         }
