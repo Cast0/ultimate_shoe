@@ -23,32 +23,16 @@ body {
 
 
 
-/* menu */
-.menu_container {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 250px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #111; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-}
 
-.menu_container .title {
-    width: auto;
-    margin: auto;
-    color: #F8F9FA;
-}
-
-.menu_container .title h2 {
+.title .h2 {
     font-family: 'Readex Pro';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 20px;
     text-align: center;
+    color: #fff;;
+    padding: 6px 8px 6px 16px;
 }
 
 /* category buttons */
@@ -64,23 +48,23 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    color: #F8F9FA;
+    color: #F8F9FA; 
     margin: 10px 0px 0px;
     transition: .3s ease-in-out;
     cursor: pointer;
-    background-color: #212529;
+    background-color: #495057;
     border-radius: 25px;
     width: 160px;
     height: 45px;
     line-height: 33px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.397);
     margin-top: 10px;
     padding: 6px 8px 6px 16px;
 }
 
 .content .list li:hover {
     cursor: pointer;
-    background-color: #495057;
+    background-color: #A7A2A9;
 }
 
 /* categories */
@@ -168,7 +152,7 @@ form .text a {
 
 form .text a:hover {
     cursor: pointer;
-    background-color: #495057;
+    background-color: #6C757D;
 }
 
 
@@ -245,4 +229,58 @@ form .text a:hover {
     margin-left:100px;
   }
   
- 
+  
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    
+    cursor: pointer;
+    background-color: #495057;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 2px;
+  } 
+    
+  
+  .openbtn:hover {
+    background-color: #ADB5BD;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 10px;
+  }

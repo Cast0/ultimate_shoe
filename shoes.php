@@ -89,13 +89,16 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
         }
   ?>
 
-    
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" button.style.visibility = "hidden" class="closebtn" onclick="closeNav()">×</a>
     <!-- Shoe List -->
-    <div class="menu_container">
+   
 
         <div class="title">
-            <h2>Shoe List</h2>
+        
+            <h2 class="red-text" color=white postition = "center";>Shoe List</h2>
         </div>
+        
 
         <!-- category buttons-->
         
@@ -117,6 +120,9 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
             </div>
         </div>
               </div>
+              </div>
+              <div id="main">
+  <button class="openbtn" onclick="openNav()">☰</button>  
         
         <!-- end of category buttons-->
 
@@ -194,6 +200,15 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
                 })
             })
         })
+        function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "0px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
     </script>
 </body>
 

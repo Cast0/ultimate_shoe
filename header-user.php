@@ -20,6 +20,14 @@
               <li class="nav-item">
                 <a class="nav-link" href="shoes.php">Shoes</a>
               </li>
+              <li class=" in">
+                      <form role="search" class="app-search d-none d-md-block me-3">
+                                <input type="text" placeholder="Search..." class="form-control mt-0">
+                                <a href="" class="active">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </form>
+                </li>
           </div>
         </div>
     </nav>   
