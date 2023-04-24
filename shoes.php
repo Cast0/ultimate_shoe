@@ -70,15 +70,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/03977197ef.js" crossorigin="anonymous"></script>
 </head>
-<style>
-  .user-name, td>a, .fa-cart-shopping, tr > #usertitle{color: #fff;}
-  .user-name:hover, .fa-cart-shopping:hover {color: #2C293A;}  
-  @media (max-width: 991.98px) {
-    .user-name, td>a, .fa-cart-shopping, tr > #usertitle{color: #2C293A;}
-    .fa-cart-shopping {color:#C70800;}
-    .fa-cart-shopping:hover, .user-name:hover {color:#8e0000;}
-    }
-</style>
+
 <body>
   <?php if(!isset($_SESSION['loggedin'])) {
           include 'header-guest.html';
@@ -96,7 +88,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
 
         <div class="title">
         
-            <h2 class="red-text" color=white postition = "center";>Shoe List</h2>
+            <h1 id= "title1">Shoe List</h1>
         </div>
         
 

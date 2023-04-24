@@ -23,17 +23,18 @@ body {
 
 
 
-
-.title .h2 {
-    font-family: 'Readex Pro';
+#title1{
+  color: #F8F9FA;
+  font-family: 'Readex Pro';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 20px;
     text-align: center;
-    color: #fff;;
     padding: 6px 8px 6px 16px;
+
 }
+
 
 /* category buttons */
 .content .list {
