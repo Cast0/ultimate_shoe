@@ -13,17 +13,29 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
 <!doctype html>
 <html lang="en" class="scroller">
   <head>
+
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <title>Ultimate Shoe Battle!</title>
+
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Ultimate Shoe Battle</title>
+     
       <!-- bootstrap -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
       <!-- css -->   
       <link rel="stylesheet" href="css/header-responsive.css" />             
       <link rel="stylesheet" href="css/footer.css" />   
       <link rel="stylesheet" href="CSS/index.css" />     
+      <link rel="stylesheet" type="text/css" href="style.css">
       <!-- favicon -->
       <link rel="icon" type="image/x-icon" href="favicon.ico" />
+      <link rel="shortcut icon" type="image/x-icon"href="favicon.png"/>
       <!-- fontawesome -->
       <script src="https://kit.fontawesome.com/03977197ef.js" crossorigin="anonymous"></script>
   </head>
@@ -41,146 +53,31 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
       }
     ?>
 
-
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-}
-.container {
-    height: 100vh;
-    width: 100%;
-    background-image: url(images/bg.png);
-    background-position: center;
-    background-size: cover;
-    padding-right: 5%;
-    padding-left: 3%;
-    box-sizing: border-box;
-    position: relative;
-}
-.navbar {
-    width: 100%;
-    height: 15vh;
-    margin: auto;
-    display: flex;
-    align-items: center;
-}
-.logo {
-    width: 180px;
-    margin-top: 10px;
-    cursor: pointer;
-}
-nav {
-    flex: 1;
-    padding-left: 420px;
-}
-nav ul li {
-    display: inline-block;
-    list-style: none;
-    margin: 0 15px;
-}
-nav ul li a {
-    text-decoration: none;
-    color: #1b1b1b;
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: 600;
-}
-a .cart {
-    font-size: 60px;
-    color: #1b1b1b;
-}
-a .cart:hover {
-    transform: scale(1.1);
-    color: rgb(111,167,29);
-    transition: all .5s;
-}
-.content {
-    position: relative;
-}
-h1 {
-    text-transform: uppercase;
-    font-weight: 800;
-    margin-top: 100px;
-    letter-spacing: .1em;
-    font-size: 70px;
-    color: #1b1b1b;
-}
-h1 .style {
-    color: greenyellow;
-    font-size: 80px;
-    font-weight: 800;
-    font-family: 'Lobster', cursive;
-}
-p {
-    font-size: 15px;
-    font-weight: 600;
-    letter-spacing: .1em;
-    margin-top: 35px;
-    color: #1b1b1b;
-}
-.text {
-    position: relative;
-    display: flex;
-    align-items: center;
-}
-.btn {
-    background-color: greenyellow;
-    margin-top: 80px;
-    padding: 15px 45px;
-    text-align: center;
-    border: none;
-    outline: none;
-    transition: .5s;
-    text-transform: uppercase;
-    color: #1b1b1b;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 24px;
-    display: block;
-    border-radius: 30px;
-    background-size: 200% auto;
-    box-shadow: 3px 8px 22px rgba(22,21,21,.15);
-}
-.btn:hover {
-    transform: scale(1.1);
-    transition: all .5s;
-}
-.social-media {
-    font-family: 'Poppins', sans-serif;
-    margin-top: 80px;
-    margin-left: 50px;
-    text-decoration: none;
-    font-size: 27px;
- }
- .icons {
-    color: greenyellow;
-    padding: 12px 12px 10px 12px;
-    border-radius: 50%;
-    margin-left: 10px;
-    width: 27px;
-    text-align: center;
-    height: 27px;
-    background-color: #fff;
-    box-shadow: 3px 8px 22px rgba(22, 21, 21, 0.15);
- }
- .icons:hover {
-    transform: scale(1.1);
-    color: #fff;
-    background-color: greenyellow;
-    transition: all .5s;
- }
-.image {
-    position: absolute;
-    width: 47%;
-    height: 47%;
-    bottom: 0;
-    margin-bottom: 170px;
-    margin-left: 530px;
-    transform: rotate(-35deg);
-}
-
+    
+<div class="container">
+         <div class="navbar">
+            <img src="images/logo 2.png" class="logo">
+             <nav>
+                <ul>
+                    
+                </ul>
+             </nav>
+             </i></a>
+         </div>
+         <div class="content">
+             <h1>SHOE <span class="style">BATTLE</span></h1>
+             <p>Which shoe will reign supreme? <br>Who will be crowned champion? <br>It's time to lace up and compete.<br> Measure up against the best. 
+            </p> 
+            <div class="text">
+                <button class="btn">FIGHT!</button>
+                
+                </div>
+            </div>       
+        </div>
+        <img src="images/main shoe.png" class="image">
+     </div>
+</body>
+</html>
     
   
 
