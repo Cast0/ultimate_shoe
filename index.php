@@ -82,24 +82,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
     
   
 
-    <div class="content-3">
-      <div class="d-flex justify-content-center text-center">
-        <div class="p-2 text-center"><h2 class="howto text-center">Shoes</h2></div>
-      </div>
-      <div class="d-flex justify-content-center text-center">
-        <div class="p-2 text-center"><p class="follow text-center">description of shoes</p></div>
-      </div>     
-    </div>
-
-    <div class="content-4">
-      <div class="d-flex justify-content-start">
-        <div class="text-left ohayo-group">
-          <h2 class="ohayo-title">&#128075; PAK U</h2>
-          <p class="ohayo-text">
-            Description of shoes
-          </p>
-        </div>    
-      </div>
+    
 
       
       <!--carousel start--->
