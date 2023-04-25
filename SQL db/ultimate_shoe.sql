@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 18, 2023 at 06:31 PM
+-- Generation Time: Apr 25, 2023 at 08:36 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.0.25
 
@@ -84,8 +84,7 @@ CREATE TABLE `info_accts` (
 
 INSERT INTO `info_accts` (`id`, `firstname`, `lastname`, `birthday`, `username`, `phone`, `password`, `role`, `house`, `city`, `province`, `zip`) VALUES
 (12, 'Admin', 'Admin', '2001-08-13', 'admin', '09123456789', '$2y$10$HkVmVdmQHxyQE0ARqbPej.pmBGopjlUjj/ZQpFYLH6mFWwPn2tJ0G', 1, NULL, NULL, NULL, NULL),
-(18, 'Alvy', 'Depositar', '2001-08-13', 'aldepositar2020@plm.edu.ph', '09123456789', '$2y$10$1hvaK7LXmrV2KmhKxpKh/OTGve6h07d4HrZpEbL45l0kXP5B8nUz.', 2, '1215 Mithi St., Tondo', 'Caloocan', 'Metro Manila', 1012),
-(19, 'Cheska Louisse', 'Francisco', '2002-12-12', 'clafrancisco2020@plm.edu.ph', '09123456789', '$2y$10$2YrgJi3eoLrpCAcpdW7zGe2cIWTjfE2KuJaC5KrLf/V9fddQOa5Gu', 2, '123 MOA St', 'Caloocan', 'Metro Manila', 1013);
+(20, 'Crizelle', 'Bernardo', '2003-05-26', 'cheng', '09672637123', '$2y$10$ZgswubE.mVYCs77g4ApkDuBZUKNFdYEp/KkRc26HCWm.MeqnnPVoS', 1, NULL, NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -185,7 +184,7 @@ ALTER TABLE `feedbacks`
 -- AUTO_INCREMENT for table `info_accts`
 --
 ALTER TABLE `info_accts`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- AUTO_INCREMENT for table `products`
