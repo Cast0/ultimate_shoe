@@ -70,7 +70,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
              <p>Which shoe will reign supreme? <br>Who will be crowned champion? <br>It's time to lace up and compete.<br> Measure up against the best. 
             </p> 
             <div class="text">
-                <button class="btn">FIGHT!</button>
+                <button class="btn1">FIGHT!</button>
                 
                 </div>
             </div>       
@@ -101,65 +101,14 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
         </div>    
       </div>
 
-      <?php
-        //retrieve the quantity sold of all products
-        $query = "SELECT product_id, SUM(quantity) as total_sold FROM user_orders GROUP BY product_id";
-        $result = mysqli_query($conn, $query);
-
-          //check if there's no result from the query
-          if(!$result) {
-            echo "Error: " . mysqli_error($conn);
-            exit();
-          }
-          if(mysqli_num_rows($result) < 1) {
-            echo "    No best seller products found.";
-            exit();
-          }
-
-          //store the result in an associative array
-          $sales = array();
-          while ($row = mysqli_fetch_assoc($result)) {
-            $sales[$row['product_id']] = $row['total_sold'];
-          }
-
-          //check the sales array if its empty or has less than 5 elements
-          if(count($sales)<5) {
-            echo "Not enough data to display best sellers.";
-            exit();
-          }
-
-          //sort the associative array in descending order by value
-          arsort($sales);
-
-          //get the top 5 best seller products
-          $best_seller_ids = array_keys(array_slice($sales, 0, 5, true));
-
-          //retrieve the best seller products
-          $best_seller_products = array();
-          foreach($best_seller_ids as $id) {
-            $query = "SELECT * FROM products WHERE p_id = $id";
-            $result = mysqli_query($conn, $query);
-            $best_seller_products[] = mysqli_fetch_assoc($result);
-          }
-
-      ?>
+      
       <!--carousel start--->
       <div class="container" style="padding-bottom: 150px;">
         <div class="row">
           <div class="MultiCarousel" data-items="2,3,4,5" data-slide="1" id="MultiCarousel"  data-interval="1000">
             <div class="MultiCarousel-inner">
               <!--items start--->
-              <?php foreach($best_seller_products as $product) { ?>
-              <div class="item">
-                <div class="pad15">
-                  <div class="card-img">
-                    <img src="img/menu/<?php echo $product['image']; ?>" class="d-block w-100" alt="<?php echo $product['productName']; ?>">
-                  </div>
-                  <h5 class="card-title" style="margin-bottom:10px;"><?php echo $product['productName']; ?></h5>                  
-                  <a href="shoes.php"><button class="button card-btn">View</button></a>
-                </div>
-              </div>
-              <?php } ?>
+
               <!--items end--->                
           </div>
           <!--<button class="btn btn-primary leftLst"><i class="fas fa-angle-left"></i></button>
