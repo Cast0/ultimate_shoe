@@ -6,7 +6,7 @@
       <!-- header -->
        <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid navbar-content">
-            <a class="navbar-brand" href="/KADS">
+            
                 <img src="kineme pic" alt="" height="85" id="headerlogo">
             </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,14 +19,7 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="shoes.php">Shoes</a>
-              </li>
-              <li class=" in">
-                      <form role="search" class="app-search d-none d-md-block me-3">
-                                <input type="text" placeholder="Search..." class="form-control mt-0">
-                                <a href="" class="active">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </form>
+              
                 </li>
           </div>
         </div>
