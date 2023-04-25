@@ -32,7 +32,8 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
       <link rel="stylesheet" href="css/header-responsive.css" />             
       <link rel="stylesheet" href="css/footer.css" />   
       <link rel="stylesheet" href="CSS/index.css" />     
-      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" href="CSS/style.css">
+      <link rel="stylesheet" href="CSS/style.min.css">
       <!-- favicon -->
       <link rel="icon" type="image/x-icon" href="favicon.ico" />
       <link rel="shortcut icon" type="image/x-icon"href="favicon.png"/>
