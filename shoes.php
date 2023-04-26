@@ -114,7 +114,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
               </div>
               </div>
               <div id="main">
-  <button class="openbtn" onclick="openNav()">☰</button>  
+  <button class="openbtn" id= "hide_open" onclick="openNav()">☰</button>  
         
         <!-- end of category buttons-->
 
@@ -126,6 +126,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
 
         <!-- categories -->
         <form class="form-style" action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
+        <div id = "shoe_box">
             <div class="menu_box">
                 <?php 
                             while($row = mysqli_fetch_assoc($result)){
@@ -195,12 +196,17 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
         function openNav() {
   document.getElementById("mySidebar").style.width = "250px";
   document.getElementById("main").style.marginLeft = "0px";
+  document.getElementById("shoe_box").style.marginLeft= "250px";
+  document.getElementById("hide_open").style.visibility = "hidden";
 }
 
 function closeNav() {
   document.getElementById("mySidebar").style.width = "0";
   document.getElementById("main").style.marginLeft= "0";
+  document.getElementById("shoe_box").style.marginLeft= "0";
+  document.getElementById("hide_open").style.visibility = "visible";
 }
+
     </script>
 </body>
 

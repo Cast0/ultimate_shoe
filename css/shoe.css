@@ -82,8 +82,8 @@ body {
 }
 
 .box {
-    width: 180px/*220px*/;
-    height: 315px/*335px*/;
+    width: 200px;
+    height: 330px;
     margin-top: 40px;
     background: #EEEEEE;
     border-radius: 15px;
@@ -97,7 +97,7 @@ body {
 }
 
 .box_img img {
-    width: 150px;
+    width: 170px;
     height: 150px;
 }
 
@@ -107,17 +107,18 @@ body {
 }
 
 .text .text-info {    
-    height: 50px;
+    height: 45px;
 }
 
 .text p {    
-    display: inline;
-    margin:0;    
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;    
-    color: #000000;    
+  display: inline;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;   
 }
 
 .text .text_long {
@@ -131,8 +132,8 @@ body {
     font-style: normal;
     font-weight: 300;
     font-size: 17px;
-    /*line-height: 25px;
-    padding-top:5px;*/
+    line-height: 25px;
+    padding-top:23px;
     color: #000000;
 }
 
@@ -185,9 +186,7 @@ form .text a:hover {
     letter-spacing: .5px;
   }
   
-  .emoji1 {
-    font-size: calc(15px + 2.5vw);
-  }
+
   
   .text {
     font-family: 'Inter';
@@ -238,7 +237,7 @@ form .text a:hover {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #000000;
+    background-color: #1d1d1d6b;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -274,6 +273,8 @@ form .text a:hover {
     padding: 8px 12px;
     border: none;
     border-radius: 2px;
+    
+    
   } 
     
   
@@ -284,4 +285,9 @@ form .text a:hover {
   #main {
     transition: margin-left .5s;
     padding: 10px;
+  }
+  
+  #shoe_box{
+    transition: margin-left .5s;
+    padding: 5px;
   }
