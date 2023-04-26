@@ -53,7 +53,7 @@ body {
     margin: 10px 0px 0px;
     transition: .3s ease-in-out;
     cursor: pointer;
-    background-color: #495057;
+    background-color: #212529;
     border-radius: 25px;
     width: 160px;
     height: 45px;
@@ -65,7 +65,7 @@ body {
 
 .content .list li:hover {
     cursor: pointer;
-    background-color: #A7A2A9;
+    background-color: #6C757D;
 }
 
 /* categories */
@@ -78,6 +78,7 @@ body {
     align-content: space-between;
     align-items: center;
     justify-items: center;
+    transition: margin-left .5s;
     
 }
 
@@ -289,6 +290,9 @@ form .text a:hover {
   #shoe_box{
     transition: margin-left .5s;
 
+  }
+  #hide_open{
+    transition: visibility .10s;
   }
   
   

@@ -182,9 +182,9 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
         list.forEach((el) => {
             el.addEventListener("click", (e) => {
                 list.forEach((el1) => {
-                    el1.style.background = "#2c293a";
+                    el1.style.background = "#212529";
                 })
-                e.target.style.background = "#495057"
+                e.target.style.background = "#6C757D"
                 box.forEach((el2) => {
                     el2.style.display = "none";
                 })
