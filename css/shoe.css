@@ -24,14 +24,14 @@ body {
 
 
 #title1{
-  color: #F8F9FA;
+  color: #dfdfdf;
   font-family: 'Readex Pro';
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 48px;
     margin-bottom: 20px;
     text-align: center;
-    padding: 6px 8px 6px 16px;
+    
 
 }
 
@@ -237,7 +237,7 @@ form .text a:hover {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #1d1d1d6b;
+    background-color: #1d1d1da6;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -286,8 +286,10 @@ form .text a:hover {
     transition: margin-left .5s;
     padding: 10px;
   }
-  
   #shoe_box{
     transition: margin-left .5s;
-    padding: 5px;
+
   }
+  
+  
+  

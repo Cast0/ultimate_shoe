@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 25, 2023 at 08:36 PM
+-- Generation Time: Apr 26, 2023 at 04:23 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.0.25
 
@@ -37,11 +37,13 @@ CREATE TABLE `categories` (
 --
 
 INSERT INTO `categories` (`c_id`, `categoryName`) VALUES
-(1, 'NIKE'),
+(1, 'Nike'),
 (2, 'New Balance'),
-(3, 'Puma'),
-(6, 'ADIDAS'),
-(7, 'Dr. Martens');
+(3, 'Asics'),
+(6, 'Adidas'),
+(7, 'Under Armour'),
+(10, 'Vans'),
+(11, 'Converse');
 
 -- --------------------------------------------------------
 
@@ -106,10 +108,45 @@ CREATE TABLE `products` (
 
 INSERT INTO `products` (`p_id`, `image`, `productName`, `price`, `category`) VALUES
 (50, 'IMG-643db09dc7b5e7.36269645.png', 'NIKE Air Force 1', 6000, 1),
-(51, 'IMG-643db0c932b870.88426660.png', 'Adidas Superstar', 3000, 6),
-(52, 'IMG-643db89d7f6db9.07450051.png', 'Air Jordan 1 Elevate High', 10800, 1),
 (53, 'IMG-643db8b4a34048.06774213.png', 'Nike Air Max 270', 7800, 1),
-(54, 'IMG-643db9c31a9372.54364200.png', 'ADIDAS SUPERSTAR', 5800, 6);
+(55, 'IMG-644920695d2be0.14162186.jpg', 'Air Jordan 1 Low', 6195, 1),
+(56, 'IMG-644920d4ebd861.09011377.jpg', 'Nike Dunk Low Retro Premium', 4339, 1),
+(57, 'IMG-644920ff049f33.74459479.jpg', 'Nike Air Pegasus SE', 4400, 1),
+(58, 'IMG-6449215e5f8096.24494027.jpg', 'Nike Dunk Low Retro Premium', 5000, 1),
+(59, 'IMG-6449217586e215.35371853.jpg', 'Nike Air Pegasus 83 SE', 4600, 1),
+(60, 'IMG-644922b7a95442.99993099.png', 'Adidas NMD R1 PRIMEBLUE', 8000, 6),
+(61, 'IMG-644922fbc4c019.98699943.png', 'Adidas Superstar Shoes', 5300, 6),
+(62, 'IMG-64492319620d38.20215687.png', 'Adidas Forum Low Shoes', 5000, 6),
+(63, 'IMG-6449232cc9f111.43726410.png', 'Adidas Duramo 10 Shoes', 3500, 6),
+(64, 'IMG-6449234064f1c4.35012223.png', 'Adidas Daily 3.0 Shoes', 3300, 6),
+(65, 'IMG-6449236ae94455.83042826.png', 'Adidas EQ21 Run Shoes', 4500, 6),
+(66, 'IMG-6449238ca1b669.43659152.png', 'Adidas Ultra 4DFWD Shoes', 14000, 6),
+(67, 'IMG-644923b2140de7.68652859.png', 'Adidas Campus 00S Shoes', 5000, 6),
+(68, 'IMG-6449250ec81419.92970358.png', 'Vans Authentic Black', 3336, 10),
+(69, 'IMG-644925365799c5.93846356.png', 'Vans SK8 HI Shoe', 4448, 10),
+(70, 'IMG-6449255ccffef2.78119277.png', 'Vans Canvas Old Skool Shoe', 3892, 10),
+(71, 'IMG-644925801165c0.46122529.png', 'Vans Checkerboard Slip On Shoe', 3616, 10),
+(72, 'IMG-6449259dcbef99.06446410.png', 'Vans Slip On Shoe', 3338, 10),
+(73, 'IMG-644925b6ed8d95.72955469.png', 'New Balance 580', 7785, 2),
+(74, 'IMG-644925e8cfdf15.76657611.png', 'New Balance MADE in USA 990v5 Core', 9735, 2),
+(75, 'IMG-644926040d3ce2.16893425.png', 'New Balance 550', 6127, 2),
+(76, 'IMG-6449262729c889.08557107.png', 'New Balance 574 Core', 4731, 2),
+(77, 'IMG-6449265bd6a228.03850669.png', 'New Balance 9060', 8351, 2),
+(78, 'IMG-644928684f5f83.36289116.png', 'Converse Ready To Ride', 3923, 11),
+(79, 'IMG-6449287ff1f8e7.94795281.png', 'Converse Vintage Pro', 3923, 11),
+(80, 'IMG-644928ebc400d7.21273471.png', 'Converse Chuck Taylor', 3923, 11),
+(81, 'IMG-644929001cb6c0.24980600.png', 'Converse Chuck Taylor', 3923, 11),
+(82, 'IMG-6449291cdce6d0.10971966.jpg', 'Converse Chuck Taylor All Star Classic', 3923, 11),
+(83, 'IMG-644929cd284a80.81964607.png', 'NETBURNER BALLISTIC FF MT 2', 7890, 3),
+(84, 'IMG-644929e71375d6.69931854.png', 'NOOSA TRI 13', 7990, 3),
+(85, 'IMG-64492a0d782e90.64022887.png', 'ASICS GEL 1130', 6890, 3),
+(86, 'IMG-64492a2c09be97.24339803.png', 'SKY ELITE FF 2 TOKYO', 7890, 3),
+(87, 'IMG-64492a457d8f75.29391667.png', 'GEL NETBURNER ACADEMY 9 ', 7590, 2),
+(88, 'IMG-64492a8029a266.23027890.png', 'Curry Flow 10 \"Unicorn & Butterfly\" Basketball Shoes (Unisex)', 9195, 7),
+(89, 'IMG-64492aa2dc23f5.41418157.png', 'Curry 2 Low FloTro Basketball Shoes (Unisex)', 9195, 7),
+(90, 'IMG-64492ac9852f92.41698464.png', 'Project Rock 5 Training Shoes (Men)', 8995, 7),
+(91, 'IMG-64492af36b5ea1.50011352.png', 'UA Charged Assert 9 Iridescent Running Shoes (Women', 2995, 7),
+(92, 'IMG-64492b36c2d614.21247289.png', 'UA HOVR Phantom 3 Running Shoes (Men)', 8995, 7);
 
 -- --------------------------------------------------------
 
@@ -172,7 +209,7 @@ ALTER TABLE `user_orders`
 -- AUTO_INCREMENT for table `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `c_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `c_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `feedbacks`
@@ -190,7 +227,7 @@ ALTER TABLE `info_accts`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `p_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=55;
+  MODIFY `p_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=93;
 
 --
 -- AUTO_INCREMENT for table `user_orders`
