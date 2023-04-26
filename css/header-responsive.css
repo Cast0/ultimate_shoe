@@ -21,22 +21,32 @@ body{
 }
 
 .nav-item {
+    
     padding: 0 15px;    
     font-family: Readex Pro;
+    color: #af4f00;
+    
+    
 }
 
 .nav-link {
-    color: #2C293A;
+    color: #af4f00;
     font-weight: 500;
     font-family: Readex Pro;
+    background-color: #ffffff;
+    
+    border: #ffffff;   
+    box-shadow: 0px 4px 4px #00000040; 
 }
 
 .nav-link:hover {
-    color: #495057;
+    color: #d37800;
 }
 
 .nav-item > .active {
-    color:#495057 !important; 
+    color:#d37800 !important;
+     
+    
 }
 
 .navbar-nav > .nav-item > .btn {    

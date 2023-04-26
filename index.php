@@ -40,9 +40,6 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 1) {
       <!-- fontawesome -->
       <script src="https://kit.fontawesome.com/03977197ef.js" crossorigin="anonymous"></script>
   </head>
-  <style>
-    
-  </style>
   <body>      
   <?php
       if(!isset($_SESSION['loggedin'])) {
